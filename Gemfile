@@ -79,3 +79,6 @@ end
 
 #cloudinary
 gem "cloudinary"
+
+#faker
+gem "faker"
