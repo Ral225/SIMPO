@@ -1,19 +1,18 @@
-<div class = "navbar-container">
-  <div class = "loggin-menu">
+<div class="navbar-container">
+  <div class="navbar-user-container">
+    <div class="user-container">
+      <p class="menu">Raheem Alibhai</p>
+     <!-- render the logic if the user has a profile picutre or not -->
+    <%= image_tag "avatar_icon.png", class: "avatar" %>
+    </div>
   </div>
-  <div class = "navbar">
-  <div class = "search-icon-box-container" >
+  <div class="navbar-menu">
+    <div class="navbar-menu-left">
       <%= image_tag "plus_icon.png", class: "icon" %>
-      <div class = "search-container search">
-        <%= image_tag "loupe_icon.png", class: "icon" %>
-        <p__margin-left>Search ...</p__margin-left>
-      </div>
+      <%= render "shared/large-search-box" %>
+    </div>
+    <div class="navbar-menu-right">
+      <%= render "shared/project-search-box" %>
+      <%= image_tag "simpo_logo.png" %>
+    </div>
   </div>
-  </div>
-</div>
-<div class ="navbar-container">
-  <div class="navbar-left-menu ">
-  </div>
-  <div class = "display-area">
-  </div>
-</div>

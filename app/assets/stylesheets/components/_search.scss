@@ -30,3 +30,24 @@
     border-radius: 50px;
   }
 }
+
+.search-container-project {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+  height: 37px;
+  width: 250px;
+  border: solid $yellow 0.5px;
+  align-items : space-between;
+
+  &__small {
+    height: 27px;
+    width: 150px;
+    border: solid $yellow 0.5px;
+    border-radius: 50px;
+  }
+}
