@@ -1,0 +1,36 @@
+.btn {
+  height: 27px;
+  width: 89px;
+  padding: 3px 0;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+
+  background: $blue;
+  color: $white !important;
+
+  font-weight: $font-weight-light;
+}
+
+
+.btn:hover {
+  font-weight: $font-weight-regular;
+}
+
+.btn2 {
+  height: 27px;
+  width: 89px;
+  padding: 3px 0;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+
+  background: $light-gray;
+  color: $white !important;
+
+  font-weight: $font-weight-light;
+}
