@@ -1,3 +1,16 @@
+.btn-container {
+  display:flex;
+  margin: 5px;
+}
+
+.btn-name {
+  margin: 2px;
+}
+
+.btn-icon {
+  margin: 2px;
+}
+
 .btn {
   height: 27px;
   width: 89px;
@@ -36,5 +49,45 @@
 }
 
 .btn2:hover {
+  font-weight: $font-weight-regular;
+}
+
+.btn-green {
+  height: 37px;
+  width: 150px;
+  padding: 3px 0;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+
+  background: $green;
+  color: $white !important;
+
+  font-weight: $font-weight-light;
+}
+
+.btn-green:hover {
+  font-weight: $font-weight-regular;
+}
+
+.btn-green-small {
+  height: 27px;
+  width: 89px;
+  padding: 3px 0;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+
+  background: $green;
+  color: $white !important;
+
+  font-weight: $font-weight-light;
+}
+
+.btn-green-small:hover {
   font-weight: $font-weight-regular;
 }
