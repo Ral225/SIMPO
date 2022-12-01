@@ -1,0 +1,18 @@
+.page-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.main-text {
+  height: 1024px;
+  width: 1440px;
+}
+
+.menu-container {
+  padding-left:10px;
+  padding-right:10px;
+  display: flex;
+  height: auto;
+  border-bottom: solid $yellow 0.5px;
+}

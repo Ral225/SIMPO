@@ -64,3 +64,14 @@ p.button {
   font-weight: $font-weight-light;
   color: $white;
 }
+
+a {
+  color: $dark-gray;
+  text-decoration : none;
+
+
+  &:hover {
+    color: $dark-gray;
+    text-decoration : none;
+  }
+}
