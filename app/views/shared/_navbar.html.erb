@@ -1,8 +1,20 @@
-<div class = "navbar-container">
-  <div class = "site-menu">
+<div class="navbar-container">
+  <div class="navbar-user-container">
+    <div class="user-container">
+      <p class="menu">Raheem Alibhai</p>
+     <!-- render the logic if the user has a profile picutre or not -->
+    <%= image_tag "avatar_icon.png", class: "avatar" %>
+    </div>
   </div>
-  <div class = "navbar">
+  <div class="navbar-menu">
+    <div class="navbar-menu-left">
+      <%= image_tag "plus_icon.png", class: "icon" %>
+      <%= render "shared/large-search-box" %>
+    </div>
+    <div class="navbar-menu-right">
+      <%= render "shared/project-search-box" %>
+    <!-- build the logic to display the company logo -->
+      <%= image_tag "simpo_logo.png" %>
+    </div>
   </div>
-</div>
-<div class = "navbar-left-menu">
-</div>
+  </div>

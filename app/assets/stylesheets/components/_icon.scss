@@ -1,0 +1,20 @@
+.icon {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  color: $yellow;
+
+  &__small {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    color: $yellow;
+
+  &__button {
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    color: $white;
+  }
+  }
+}
