@@ -1,9 +1,15 @@
 <div class="navbar-container col-sm-6">
   <div class="navbar-user-container">
     <div class="user-container">
-      <p class="menu"> Raheem Alibhai</p>
+      <p class="menu"> <%= current_user.email%></p>
      <!-- render the logic if the user has a profile picutre or not -->
-    <%= image_tag "avatar_icon.png", class: "avatar" %>
+     <div class="dropdown">
+    <button class="dropbtn"><%= image_tag "avatar_icon.png", class: "avatar" %> </button>
+        <div class="dropdown-content">
+          <%= link_to "Profile", "" %>
+          <%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete} %>
+        </div>
+    </div>
     </div>
   </div>
   <div class="navbar-menu">
